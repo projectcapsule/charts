@@ -69,4 +69,49 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-0.4.6.tgz
     version: 0.4.6
-generated: "2023-10-26T12:02:49.27707331Z"
+  capsule-proxy:
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: artifacthub annotations
+        - kind: changed
+          description: maintainers contact
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://capsule.clastix.io/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.4.5
+    created: "2023-11-06T13:28:50.947845425Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 05f27324377b490f6c29f0dcbfeccf5626a5d157c5785e933128e79bbf3c1dfa
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://capsule.clastix.io/docs/general/proxy
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
+    version: 0.5.0
+generated: "2023-11-06T13:28:50.946418641Z"
