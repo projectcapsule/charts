@@ -3,6 +3,43 @@ entries:
   capsule:
   - annotations:
       artifacthub.io/category: security
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://capsule.clastix.io/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2023-11-07T11:39:50.477408668Z"
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining mutitenancy and access control in Kubernetes.
+    digest: f65cd55dfad13c2383eb5216b431348537aef3180083bf8826413f077068dc1b
+    home: https://github.com/projectcapsule/capsule
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule
+    sources:
+    - https://github.com/projectcapsule/capsule
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      artifacthub.io/category: security
       artifacthub.io/changes: |
         - kind: added
           description: artifacthub annotations
@@ -151,4 +188,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2023-11-07T10:36:57.265400317Z"
+generated: "2023-11-07T11:39:50.474982383Z"
