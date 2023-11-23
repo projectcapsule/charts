@@ -236,6 +236,50 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.4.6
+    created: "2023-11-23T11:40:33.485884114Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 6e7e9e4c5774d4a62e0cf422c526ddb003d93e4c5545c309628276294002bb6c
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://capsule.clastix.io/docs/general/proxy
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: artifacthub annotations
+        - kind: changed
+          description: maintainers contact
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://capsule.clastix.io/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.4.5
     created: "2023-11-06T13:28:50.947845425Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
@@ -262,4 +306,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2023-11-21T13:40:20.385664785Z"
+generated: "2023-11-23T11:40:33.484753112Z"
