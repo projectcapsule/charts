@@ -339,6 +339,48 @@ entries:
       artifacthub.io/category: security
       artifacthub.io/changes: |
         - kind: added
+          description: crd lifecycle
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://capsule.clastix.io/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.7.0-rc.1
+    created: "2024-05-06T19:08:45.615803491Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 92691900d08823d7abb0142f18f0ab86cd742bf8fe23cb84caa36cfc3e23ff0d
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://capsule.clastix.io/docs/general/proxy
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.7.0-rc.1.tgz
+    version: 0.7.0-rc.1
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
           description: add subjects for cert-manager certificate
       artifacthub.io/containsSecurityUpdates: "false"
       artifacthub.io/license: Apache-2.0
@@ -549,4 +591,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-03-28T20:21:22.507378898Z"
+generated: "2024-05-06T19:08:45.614618002Z"
