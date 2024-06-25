@@ -3,6 +3,54 @@ entries:
   capsule:
   - annotations:
       artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: bundled crd lifecycle
+        - kind: changed
+          description: removed PodSecurityPolicy support
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.7.0
+    created: "2024-06-25T08:18:35.614573597Z"
+    dependencies:
+    - alias: proxy
+      condition: proxy.enabled
+      name: capsule-proxy
+      repository: oci://ghcr.io/projectcapsule/charts
+      version: 0.6.0
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining mutitenancy and access control in Kubernetes.
+    digest: e877653f6385bfe00de6a3b1e5528b6d52dcacb63c715a9a48b34dbbc8330924
+    home: https://github.com/projectcapsule/capsule
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule
+    sources:
+    - https://github.com/projectcapsule/capsule
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
+      artifacthub.io/category: security
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
         - name: Documentation
@@ -676,4 +724,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-06-25T08:11:59.24780712Z"
+generated: "2024-06-25T08:18:35.610884223Z"
