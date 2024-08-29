@@ -490,6 +490,48 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.7.1
+    created: "2024-08-29T09:38:37.419699447Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 7ee23186e953a9e4ff16b2e40d71e351d550d916a40296c68175b610c5b495dc
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://capsule.clastix.io/docs/general/proxy
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.7.1.tgz
+    version: 0.7.1
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: crd lifecycle
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://capsule.clastix.io/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.7.0
     created: "2024-06-26T07:12:56.111172519Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
@@ -772,4 +814,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-08-26T12:45:20.067671424Z"
+generated: "2024-08-29T09:38:37.418293793Z"
