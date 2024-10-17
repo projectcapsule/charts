@@ -477,6 +477,52 @@ entries:
   - annotations:
       artifacthub.io/category: security
       artifacthub.io/changes: |
+        - kind: refactor
+          description: crd lifecycle (aligned with main project)
+        - kind: refactor
+          description: job values (global key)
+        - kind: fix
+          description: cert-manager values corrected (should no longer trigger job)
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.7.2
+    created: "2024-10-17T10:07:56.445338561Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 23e079995b507631530ea6b1ce497245a144c2fcc5f1dfdf483cd9e5e389a361
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://projectcapsule.dev/integrations/addons/capsule-proxy/
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.7.2.tgz
+    version: 0.7.2
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
         - kind: added
           description: crd lifecycle
       artifacthub.io/containsSecurityUpdates: "false"
@@ -814,4 +860,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-08-29T09:38:37.418293793Z"
+generated: "2024-10-17T10:07:56.442971139Z"
