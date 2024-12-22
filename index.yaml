@@ -542,6 +542,52 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.8.1
+    created: "2024-12-22T13:11:57.940547433Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 5ca2d3e6c689f773ea3fb13817c93942a1b27569eb4f68d1c0474f20d238ce68
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://projectcapsule.dev/integrations/addons/capsule-proxy/
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: Upgrading k8s.io packages to v1.31.2
+        - kind: added
+          description: Support for bearer tokens in WebSocket protocols
+        - kind: fix
+          description: Support ServiceAccount bound token expiration
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.8.0
     created: "2024-11-15T15:44:08.485928174Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
@@ -954,4 +1000,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-11-15T15:44:08.484407893Z"
+generated: "2024-12-22T13:11:57.938960724Z"
