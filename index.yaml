@@ -521,6 +521,17 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-0.4.6.tgz
     version: 0.4.6
+  capsule-addon-fluxcd:
+  - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2024-12-25T14:35:58.498141404Z"
+    description: A Helm chart for Kubernetes
+    digest: 8b1705bf09a22047b9017f68ff93cf67e574e569ee60a7aea965cc5386b7af57
+    name: capsule-addon-fluxcd
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-addon-fluxcd-0.2.0.tgz
+    version: 0.2.0
   capsule-proxy:
   - annotations:
       artifacthub.io/category: security
@@ -1000,4 +1011,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2024-12-22T13:11:57.938960724Z"
+generated: "2024-12-25T14:35:58.497095607Z"
