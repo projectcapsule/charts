@@ -600,10 +600,10 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-02-10T10:29:18.848224249Z"
+    created: "2025-02-10T13:22:58.689922535Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
       Operator
-    digest: b665d0a659f7d7de56889f4abd549b455f8b9d486664ab3b13a398da541329a2
+    digest: 1c52df7597c66d590fb0593396d6b4eb117e963670c9fc32bb8e1199cf4f119f
     home: https://github.com/projectcapsule/capsule-proxy
     icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
     keywords:
@@ -1149,4 +1149,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-02-10T10:29:18.844459259Z"
+generated: "2025-02-10T13:22:58.688076846Z"
