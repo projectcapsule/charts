@@ -63,7 +63,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 0.8.1
-    created: "2025-05-01T11:40:24.190534063Z"
+    created: "2025-05-01T12:50:29.643433459Z"
     dependencies:
     - alias: proxy
       condition: proxy.enabled
@@ -72,7 +72,7 @@ entries:
       version: 0.9.3
     description: A Helm chart to deploy the Capsule Operator for easily implementing,
       managing, and maintaining mutitenancy and access control in Kubernetes.
-    digest: 6ee5ec1968ea30144ad028cd99d3b532603a0362b9a5ff733de1fbda0ec39459
+    digest: 0dd5f42f20ef999a34c30db1e5478339ea46cb826286137c76dda5bb962afd5a
     home: https://github.com/projectcapsule/capsule
     icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
     keywords:
@@ -1421,4 +1421,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-05-01T12:46:59.655658845Z"
+generated: "2025-05-01T12:50:29.639138397Z"
