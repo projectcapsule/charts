@@ -875,6 +875,50 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.9.6
+    created: "2025-06-03T06:48:29.158708911Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: cb2a475b19ffcec97fe3192828cd4aa5b8e93747b69ab4ab183d84ab1af5f4d8
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://projectcapsule.dev/integrations/addons/capsule-proxy/
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.9.6.tgz
+    version: 0.9.6
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: changed
+          description: cert-job image from docker.io/jettech/kube-webhook-certgen to registry.k8s.io/ingress-nginx/kube-webhook-certgen (.Values.global.jobs.certs.image)
+        - kind: added
+          description: Webhook values
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.9.5
     created: "2025-05-20T17:34:57.670346145Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
@@ -1601,4 +1645,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-05-22T12:39:16.788833585Z"
+generated: "2025-06-03T06:48:29.157003844Z"
