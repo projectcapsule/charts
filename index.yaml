@@ -952,6 +952,48 @@ entries:
   - annotations:
       artifacthub.io/category: security
       artifacthub.io/changes: |
+        - kind: added
+          description: added toggles for podSecurityContexts and securityContexts
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.9.9
+    created: "2025-07-22T17:31:19.651136122Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: db48d5e4a568a4ea53307eb0fb88994781e42ec524dde92e239c77068670283c
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://projectcapsule.dev/integrations/addons/capsule-proxy/
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.9.9.tgz
+    version: 0.9.9
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
         - kind: changed
           description: cert-job image from docker.io/jettech/kube-webhook-certgen to registry.k8s.io/ingress-nginx/kube-webhook-certgen (.Values.global.jobs.certs.image)
         - kind: added
@@ -1825,4 +1867,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-07-22T17:30:14.421426953Z"
+generated: "2025-07-22T17:31:19.649106464Z"
