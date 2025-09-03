@@ -1241,6 +1241,48 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.9.13
+    created: "2025-09-03T20:17:40.797467135Z"
+    description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
+      Operator
+    digest: 88ed5fc25030da5b698f28d220f3d45d54359b629bbbd8ae82722107c8ed6970
+    home: https://github.com/projectcapsule/capsule-proxy
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    - proxy
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule-proxy
+    sources:
+    - https://projectcapsule.dev/integrations/addons/capsule-proxy/
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-proxy-0.9.13.tgz
+    version: 0.9.13
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: added toggles for podSecurityContexts and securityContexts
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.9.12
     created: "2025-09-02T11:41:27.329315655Z"
     description: Helm Chart for Capsule Proxy, addon for Capsule, the multi-tenant
@@ -2269,4 +2311,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-09-02T11:41:27.326794755Z"
+generated: "2025-09-03T20:17:40.795686298Z"
