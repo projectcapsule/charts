@@ -16,6 +16,52 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.12.2
+    created: "2025-12-10T17:35:55.502727202Z"
+    dependencies:
+    - alias: proxy
+      condition: proxy.enabled
+      name: capsule-proxy
+      repository: oci://ghcr.io/projectcapsule/charts
+      version: 0.10.0
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining mutitenancy and access control in Kubernetes.
+    digest: fe71a2ec661f531a0698c01e3a77742a7613d161d0bcc3fa5bcf4d5b3d631fdf
+    home: https://github.com/projectcapsule/capsule
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule
+    sources:
+    - https://github.com/projectcapsule/capsule
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-0.12.2.tgz
+    version: 0.12.2
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: added toggles for podSecurityContexts and securityContexts
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.12.1
     created: "2025-12-09T07:02:55.093836132Z"
     dependencies:
@@ -2629,4 +2675,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2025-12-09T15:53:15.493449845Z"
+generated: "2025-12-10T17:35:55.496592578Z"
