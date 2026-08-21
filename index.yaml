@@ -16,6 +16,52 @@ entries:
       artifacthub.io/operator: "true"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 0.14.0
+    created: "2026-08-21T13:56:05.580072153Z"
+    dependencies:
+    - alias: proxy
+      condition: proxy.enabled
+      name: capsule-proxy
+      repository: oci://ghcr.io/projectcapsule/charts
+      version: 0.14.0
+    description: A Helm chart to deploy the Capsule Operator for easily implementing,
+      managing, and maintaining multitenancy and access control in Kubernetes.
+    digest: 9c6b65b972beeab4ace44c35bbf21f0dcf018c2eed72c5b6475eaa2e58fc91fe
+    home: https://projectcapsule.dev/
+    icon: https://github.com/projectcapsule/capsule/raw/main/assets/logo/capsule_small.png
+    keywords:
+    - kubernetes
+    - operator
+    - multi-tenancy
+    - multi-tenant
+    - multitenancy
+    - multitenant
+    - namespace
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: capsule
+    sources:
+    - https://github.com/projectcapsule/capsule
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/capsule-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/changes: |
+        - kind: added
+          description: added toggles for podSecurityContexts and securityContexts
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://projectcapsule.dev/
+      artifacthub.io/maintainers: |
+        - name: capsule-maintainers
+          email: cncf-capsule-maintainers@lists.cncf.io
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 0.13.11
     created: "2026-07-28T17:30:50.591767538Z"
     dependencies:
@@ -4033,4 +4079,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2026-08-19T10:35:35.681079982Z"
+generated: "2026-08-21T13:56:05.568529184Z"
