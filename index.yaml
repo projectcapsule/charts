@@ -4489,6 +4489,18 @@ entries:
     version: 0.5.0
   change-windows:
   - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2026-10-12T19:38:58.029216985Z"
+    description: Scheduled resource actions and admission maintenance windows for
+      Kubernetes.
+    digest: c3e5307cff820ded38c3cce803c1c7c824ccce9bf2d134c59e16fc4e4dfc0eb7
+    kubeVersion: '>=1.30.0-0'
+    name: change-windows
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/change-windows-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.2
     created: "2026-10-12T14:34:25.763590535Z"
     description: Scheduled resource actions and admission maintenance windows for
@@ -4512,4 +4524,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/change-windows-0.0.1.tgz
     version: 0.0.1
-generated: "2026-10-12T14:34:25.762224276Z"
+generated: "2026-10-12T19:38:58.026782227Z"
