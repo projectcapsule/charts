@@ -4487,4 +4487,17 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/capsule-proxy-0.5.0.tgz
     version: 0.5.0
-generated: "2026-10-12T04:42:22.514645415Z"
+  change-windows:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-12T13:32:41.558726909Z"
+    description: Scheduled resource actions and admission maintenance windows for
+      Kubernetes.
+    digest: bccdaa2c546c33cc40657cf2c44f2354d21a8dbfb6232fa2d41b655b10ba5602
+    kubeVersion: '>=1.30.0-0'
+    name: change-windows
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/change-windows-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-10-12T13:32:41.556320688Z"
