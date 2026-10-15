@@ -4588,6 +4588,31 @@ entries:
   - annotations:
       artifacthub.io/license: Apache-2.0
     apiVersion: v2
+    appVersion: 0.0.3
+    created: "2026-10-15T11:05:50.03822542Z"
+    description: Kubernetes approval workflows and managed resource lifecycles
+    digest: 480c7895c0401e48ac69658af1587ec6e4a86e2bc4e0a177ed520a399cb80982
+    home: https://resource-permits.addons.projectcapsule.dev
+    icon: https://raw.githubusercontent.com/projectcapsule/capsule/581a8fe60e5a8a4c2861c32dd9854e1c2461777f/assets/logo/capsule.svg
+    keywords:
+    - kubernetes
+    - capsule
+    - approvals
+    - rbac
+    kubeVersion: '>=1.30.0-0'
+    maintainers:
+    - email: cncf-capsule-maintainers@lists.cncf.io
+      name: capsule-maintainers
+    name: resource-permits
+    sources:
+    - https://github.com/projectcapsule/resource-permits
+    type: application
+    urls:
+    - https://projectcapsule.github.io/charts/resource-permits-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+    apiVersion: v2
     appVersion: 0.0.2
     created: "2026-10-15T09:04:29.742476253Z"
     description: Kubernetes approval workflows and managed resource lifecycles
@@ -4635,4 +4660,4 @@ entries:
     urls:
     - https://projectcapsule.github.io/charts/resource-permits-0.0.1.tgz
     version: 0.0.1
-generated: "2026-10-15T09:56:30.64427233Z"
+generated: "2026-10-15T11:05:50.035498807Z"
